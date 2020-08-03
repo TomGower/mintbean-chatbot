@@ -1,5 +1,6 @@
 {
   "name": "botkit-mintybean",
+  "homepage": "https://TomGower.github.io/mintbean-chatbot/",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
