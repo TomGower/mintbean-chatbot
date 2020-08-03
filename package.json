@@ -6,7 +6,8 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "botbuilder-adapter-web": "^1.0.8",
@@ -14,5 +15,11 @@
     "botkit": "^4.9.0",
     "botkit-plugin-cms": "^1.0.3",
     "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
